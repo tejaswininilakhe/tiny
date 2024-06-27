@@ -1,0 +1,15 @@
+0	1	mikrocAVR.exe -MSF -DBG -pATTINY85 -DL -SSA -O11111114 -fo8 -N"C:\Users\ADMIN\Desktop\tiny202\Attiny 85\sensor.mcpav" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Uses\lte64kw\" -SP"C:\Users\ADMIN\Desktop\tiny202\Attiny 85\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for AVR\Uses\lte64kw\" -IP"C:\Users\ADMIN\Desktop\tiny202\Attiny 85\" "sensor.c" "NewUnit_0.c" "__Lib_Math_NoHwMul.mcl" "__Lib_MathDouble.mcl" "__Lib_System_nocall.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_ref5.mcl" "__Lib_EEPROM_eep.mcl" "__Lib_FLASH_rwe.mcl" "__Lib_PWM_AB.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 53	1354	 warning: "/*" within comment       /*else  t = 0;  PWM_2_Stop)  ) &&  (uiCnt<=PWM_2_Stop))     = 1 ms	C:\Users\ADMIN\Desktop\tiny202\Attiny 85\sensor.c
+diagnostics: 0	122	Compilation Started	sensor.c
+hint: 0	1004	interrupt handler (Timer1Overflow_ISR at 0x0003)	sensor.c
+diagnostics: 168	123	Compiled Successfully	sensor.c
+diagnostics: 0	122	Compilation Started	NewUnit_0.c
+diagnostics: 0	123	Compiled Successfully	NewUnit_0.c
+diagnostics: 0	127	All files Compiled in 249 ms	 
+hint: 0	1144	Used RX (bytes): 14 (44%)   Free RX (bytes): 18 (56%)	Used RX (bytes): 14 (44%)   Free RX (bytes): 18 (56%)
+hint: 0	1144	Static RAM (bytes): 2   Dynamic RAM (bytes): 510	Static RAM (bytes): 2   Dynamic RAM (bytes): 510
+hint: 0	1144	Used ROM (bytes): 478 (6%)  Free ROM (bytes): 7714 (94%)	Used ROM (bytes): 478 (6%)  Free ROM (bytes): 7714 (94%)
+diagnostics: 0	125	Project Linked Successfully	sensor.mcpav
+diagnostics: 0	128	Linked in 125 ms	 
+diagnostics: 0	129	Project 'sensor.mcpav' completed: 530 ms	 
+diagnostics: 0	103	Finished successfully: 05 Mar 2022, 14:40:03	sensor.mcpav

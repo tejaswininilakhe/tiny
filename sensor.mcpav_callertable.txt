@@ -1,0 +1,7 @@
+main
+	PWM_config
+	PWM_Disable
+	InitTimer1
+Timer1Overflow_ISR
+	PWM_Disable
+	PWM_Enable
